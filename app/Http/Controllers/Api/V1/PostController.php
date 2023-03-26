@@ -35,6 +35,7 @@ class PostController extends Controller
         return response()->json([
             'message' => 'Post Deleted'
         ], Response::HTTP_NO_CONTENT);
+
     }
 
     //https://medium.com/@naumancs/how-to-use-http-status-codes-properly-in-laravel-3f66eebf0e66
