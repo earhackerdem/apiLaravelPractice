@@ -9,4 +9,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::apiResource('v1/posts',App\Http\Controllers\Api\V1\PostController::class)
-->only(['index','show']);
+->only(['index','show','destroy']);
